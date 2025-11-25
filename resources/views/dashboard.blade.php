@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SOBRE NÓS</title>
 </head>
 <body>
     <!DOCTYPE html>
@@ -33,11 +33,10 @@
           <a href="#" class="hover:text-[#2A4B30]">DASHBOARD</a>
           <a href="#" class="hover:text-[#2A4B30]">SOBRE</a>
           <div class="w-10 h-10 rounded-full">
-            <img 
-              src="{{ asset('images/profile.png') }}" 
-              alt="Icon" 
-              class="w-full h-full rounded-full object-cover"
-            >
+           <a href="{{ route('profile') }}">
+            <img src="{{ asset('images/profile.png') }}" class="w-full h-full rounded-full object-cover">
+          </a>
+
           </div>
         </nav>
 
@@ -77,7 +76,7 @@
                         <img src="{{ asset('images/instagram.svg') }}" class="h-[50px]">
                         <span class="italic text-[30px] text-[#6C0D0E]" >@projarandu</span>
                         <img src="{{ asset('images/email.svg') }}" class="pl-[10px] h-[50px]">
-                        <span class="italic text-[30px] text-[#6C0D0E]">aranduproject@gmail.com</span>
+                        <span class="italic text-[30px] text-[#6C0D0E]"> aranduproject@gmail.com</span>
                         
                     </div>
                 </div>
