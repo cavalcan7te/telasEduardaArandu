@@ -17,6 +17,8 @@
             <img src="{{ asset('images/ARANDUVERMELHO.png') }}" alt="Logo Arandu vermelha" class="h-10">
         </div>
 
+        
+
         <nav class="flex items-center space-x-6 text-sm font-medium text-[#6C0D0E]">
             <a href="#" class="hover:text-[#AF6B6C]">GALERIA</a>
             <a href="#" class="hover:text-[#AF6B6C]">LOGOUT</a>
