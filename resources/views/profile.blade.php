@@ -27,10 +27,12 @@
                 <a href="{{ route('profile') }}">
                     <img src="{{ asset('images/profile.png') }}" class="w-full h-full rounded-full object-cover">
                 </a>
+
             </div>
         </nav>
     </header>
 
+    
 
     <!-- CONTAINER PRINCIPAL -->
     <div class="max-w-6xl mx-auto bg-white shadow-xl rounded-xl p-6 mt-6">
